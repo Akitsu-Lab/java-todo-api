@@ -1,6 +1,6 @@
 package com.akitsulab.todo.domain;
 
-public class task {
+public class Task {
     private int id;
     private String name;
     private int status;
