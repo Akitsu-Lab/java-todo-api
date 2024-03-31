@@ -1,9 +1,13 @@
 package com.akitsulab.todo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "tasks")
+@JsonIgnoreProperties({"hibernateLazyInitializer"})
 public class Task {
     @Id
     private int id;
