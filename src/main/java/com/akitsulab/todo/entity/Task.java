@@ -1,6 +1,11 @@
-package com.akitsulab.todo.domain;
+package com.akitsulab.todo.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Task {
+    @Id
     private int id;
     private String name;
     private int status;

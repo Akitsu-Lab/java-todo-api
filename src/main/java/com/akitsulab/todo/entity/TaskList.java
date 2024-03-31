@@ -1,4 +1,4 @@
-package com.akitsulab.todo.domain;
+package com.akitsulab.todo.entity;
 
 import java.util.List;
 
