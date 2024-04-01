@@ -1,4 +1,4 @@
-package com.akitsulab.todo.entity;
+package com.akitsulab.todo.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Entity;

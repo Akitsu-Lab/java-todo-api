@@ -1,4 +1,4 @@
-package com.akitsulab.todo.entity;
+package com.akitsulab.todo.model;
 
 import java.util.List;
 
